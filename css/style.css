@@ -1,0 +1,53 @@
+@charset "utf-8";
+.top{
+  background-image: url("../img/miffy2.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 50px;
+}
+.logo{
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+}
+.nav ul{
+  display: flex;
+}
+.nav ul li{
+  margin-right: 30px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.main{
+  text-align: center;
+}
+.main_area{
+  margin-top: 100px;
+}
+.main_text{
+  font-size: 23px;
+  border: solid 1px #ffd700;
+  padding: 20px;
+  background-color: #ffd700;
+  color: #fff;
+}
+p{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  line-height: 1.5;
+}
+.btn{
+  border: solid 1px #ffd700;
+  background-color: #ffd700;
+  padding: 20px;
+  display: inline-block;
+  color: #fff;
+  width: 200px;
+  text-align: center;
+}
